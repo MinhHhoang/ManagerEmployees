@@ -1,0 +1,138 @@
+﻿@model DomainModel.Employee
+@{
+    // ViewBag.Title = "Bổ sung nhân viên";
+}
+
+<div class="box box-primary">
+    <div class="box-header">
+    </div>
+
+    <div class="box-body">
+        <form class="form-horizontal" action="~/employee/save" method="post" enctype="multipart/form-data">
+            @Html.HiddenFor(m => m.EmployeeID)
+
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Họ:</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", @autofocus = "autofocus" })
+                    @Html.ValidationMessageFor(m => m.LastName, "", new { @style = "color:#FF0000" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Tên:</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", @autofocus = "autofocus" })
+                    @Html.ValidationMessageFor(m => m.FirstName, "", new { @style = "color:#FF0000" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Ngày sinh:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="birthDateString" class="form-control datepicker" value="@string.Format("{0:dd/MM/yyyy}",Model.BirthDate)" />
+                    @Html.ValidationMessageFor(m => m.BirthDate, "", new { @style = "color:#FF0000" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Email:</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @style = "color:#FF0000" })
+                </div>
+            </div>
+            @if (Model.checkRole.Equals("1"))
+            {
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Phòng Ban :</label>
+                    <div class="col-sm-10">
+                        @Html.DropDownListFor(m => m.CodePhongBan, SelectListHelper.PhongBans(), new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.CodePhongBan, "", new { @style = "color:#FF0000" })
+
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Vị trí :</label>
+                    <div class="col-sm-10">
+                        @Html.DropDownListFor(m => m.RoleAccount, SelectListHelper.Ranks(), new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.RoleAccount, "", new { @style = "color:#FF0000" })
+
+
+                    </div>
+                </div>
+            }
+         
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Level Code :</label>
+                <div class="col-sm-10">
+                    @Html.DropDownListFor(m => m.LevelCoding, SelectListHelper.LevelCodes(), new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.LevelCoding, "", new { @style = "color:#FF0000" })
+
+
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Số project đã làm:</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.CountProject, new { @class = "form-control", @type = "number" })
+                    @Html.ValidationMessageFor(m => m.CountProject, "", new { @style = "color:#FF0000" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Language Programing:</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.LanguageProgram, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.LanguageProgram, "", new { @style = "color:#FF0000" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Ghi chú:</label>
+                <div class="col-sm-10">
+                    @Html.TextAreaFor(m => m.Notes, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Ảnh cá nhân:</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control" name="uploadPhoto" accept="image/*"
+                           onchange="document.getElementById('Photo').src = window.URL.createObjectURL(this.files[0])" />
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-sm-10">
+                    @Html.HiddenFor(m => m.Photo)
+                    <img id="Photo" src="@Model.Photo" class="img img-bordered" style="width:200px" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fa fa-save"></i> Lưu dữ liệu
+                    </button>
+                    
+                    <a class="btn btn-warning" href="~/employee">
+                        <i class="fa fa-ban"></i> Quay lại
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="box-footer text-center">
+    </div>
+
+</div>

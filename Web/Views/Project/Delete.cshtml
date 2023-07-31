@@ -1,0 +1,60 @@
+﻿@model DomainModel.Project
+@{
+    ViewBag.Title = "Xóa Project";
+}
+
+<div class="box box-prymari">
+    <div class="box-body">
+        <form class="form-horizontal" action="~/Project/Delete/@Model.ProjectID" method="post">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Tên Project :</label>
+                <div class="col-sm-10">
+                    <p class="form-control-static">@Model.NameProject</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Người quản lý:</label>
+                <div class="col-sm-10">
+                    <p class="form-control-static">@Model.ProjectManager</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Trạng Thái :</label>
+                <div class="col-sm-10">
+                    <p class="form-control-static">@Model.StatusProject</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Description</label>
+                <div class="col-sm-10">
+                    <p class="form-control-static">@Model.Description</p>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    @if (BusinessLayer.CommonDataService.InUsedProject(Model.ProjectID))
+                    {
+                        <p class="text-danger">Không được xóa project này</p>
+                    }
+                    else
+                    {
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fa fa-remove"></i>Đồng ý xóa
+                        </button>
+                    }
+                    <a class="btn btn-warning" href="~/project">
+                        <i class="fa fa-ban"></i>Quay lại
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="box-footer">
+    </div>
+</div>
+

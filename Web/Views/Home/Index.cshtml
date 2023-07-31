@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Thống kê báo cáo";
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<div class="row" style="margin-top:10%;">
+    <p id="data" hidden>@ViewBag.Data1</p>
+    <div class="col-sm-6  align-self-center">
+      
+        <canvas class="align-self-center" id="myChart" style="width: 100%; max-width: 1000px"></canvas>
+
+        <script>
+            var data = document.getElementById('data').innerHTML;
+            const myArray = data.split(" ");
+            var xValues = ["Senior", "Fresher", "Intern"];
+            var yValues = [myArray[0], myArray[1], myArray[2]];
+            var barColors = [
+                "#b91d47",
+                "#00aba9",
+                "#2b5797",
+            ];
+
+            new Chart("myChart", {
+                type: "pie",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                        backgroundColor: barColors,
+                        data: yValues
+                    }]
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: "Thống kê trình độ của các nhân viên"
+                    }
+                }
+            });
+        </script>
+    </div>
+    <div class="col-sm-6" ">
+        <canvas id="myChart2" style="width: 100%; max-width: 1000px"></canvas>
+
+        <script>
+            var xValues = ["Closed", "Processing"];
+            var yValues = [myArray[3], myArray[4]];
+            var barColors = [
+                "#b91d47",
+                "#00aba9",
+            ];
+
+            new Chart("myChart2", {
+                type: "pie",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                        backgroundColor: barColors,
+                        data: yValues
+                    }]
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: "Thống kê trạng thái của các dự án"
+                    }
+                }
+            });
+        </script>
+    </div>
+</div>
+
+
