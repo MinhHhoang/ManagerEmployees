@@ -1,0 +1,12 @@
+D:\E\LapTrinhWep\SV19T1021201\SV19T1021201.DomainModel\bin\Debug\SV19T1021201.DomainModel.dll
+D:\E\LapTrinhWep\SV19T1021201\SV19T1021201.DomainModel\bin\Debug\SV19T1021201.DomainModel.pdb
+D:\E\LapTrinhWep\SV19T1021201\SV19T1021201.DomainModel\obj\Debug\SV19T1021201.DomainModel.csproj.CoreCompileInputs.cache
+D:\E\LapTrinhWep\SV19T1021201\SV19T1021201.DomainModel\obj\Debug\SV19T1021201.DomainModel.dll
+D:\E\LapTrinhWep\SV19T1021201\SV19T1021201.DomainModel\obj\Debug\SV19T1021201.DomainModel.pdb
+D:\E\LapTrinhWep\SV19T1021201\SV19T1021201.DomainModel\obj\Debug\SV19T1021201.DomainModel.csproj.AssemblyReference.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\DomainModel\bin\Debug\DomainModel.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\DomainModel\bin\Debug\DomainModel.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\DomainModel\obj\Debug\DomainModel.csproj.AssemblyReference.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\DomainModel\obj\Debug\DomainModel.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\DomainModel\obj\Debug\DomainModel.pdb
