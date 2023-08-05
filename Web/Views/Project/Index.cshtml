@@ -44,6 +44,7 @@
                         <th>Ngày kết thúc</th>
                         <th>Mô tả</th>
                         <th>Link Source</th>
+                        <th>History commit</th>
                         <th></th>
                     </tr>
                 </thead>
@@ -72,7 +73,10 @@
                         }
 
                         <td>@item.Description</td>
-                        <td><a href="@item.LinkSource">@item.LinkSource</a></td>
+                        <td>
+                            <a href="@item.LinkSource">@item.LinkSource</a>
+                        </td>
+                        <td style="color:blue"><a href="~/project/HistoryGit/@item.LinkSource.Split('/')[@item.LinkSource.Split('/').Length-1].Split('.')[0]">Tại đây</a></td>
                         @if (Model.RoleAccount.Equals("1"))
                         {
                             <td class=" text-right">
@@ -87,7 +91,7 @@
                         }
 
                     </tr>
-
+                
 
                     }
 

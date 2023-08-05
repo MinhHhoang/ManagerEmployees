@@ -20,6 +20,7 @@ namespace DomainModel
         public DateTime FinishDate { get; set; }
         public string Description { get; set; }
 
-            public string LinkSource { get; set; }
+        public string LinkSource { get; set; }
+
     }
 }

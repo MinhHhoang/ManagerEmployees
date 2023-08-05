@@ -1,0 +1,9 @@
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\Datalayer\bin\Release\Datalayer.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\Datalayer\bin\Release\Datalayer.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\Datalayer\bin\Release\DomainModel.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\Datalayer\bin\Release\DomainModel.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\Datalayer\obj\Release\Datalayer.csproj.AssemblyReference.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\Datalayer\obj\Release\Datalayer.csproj.CoreCompileInputs.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\Datalayer\obj\Release\Datalayer.csproj.CopyComplete
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\Datalayer\obj\Release\Datalayer.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\Datalayer\obj\Release\Datalayer.pdb

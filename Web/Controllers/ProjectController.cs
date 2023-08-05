@@ -46,6 +46,15 @@ namespace Web.Controllers
             ViewBag.Title = "Bổ sung Project";
             return View(model);
         }
+
+        [Route("HistoryGit/{LinkSource}")]
+        public ActionResult HistoryGit(string LinkSource)
+        {
+           
+            ViewBag.linksource = LinkSource;
+            return View();
+        }
+
         [HttpPost]
         public ActionResult Save(Project model, string StartDateString, string EndDateString)
         {

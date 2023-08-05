@@ -5801,6 +5801,7 @@
     <Content Include="Views\MemberProject\Delete.cshtml" />
     <Content Include="Views\MemberProject\Index.cshtml" />
     <Content Include="Views\Employee\CreateMutiEmp.cshtml" />
+    <Content Include="Views\Project\HistoryGit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

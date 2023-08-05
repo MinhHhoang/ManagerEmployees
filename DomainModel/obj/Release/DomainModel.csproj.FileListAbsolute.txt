@@ -1,0 +1,6 @@
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\DomainModel\bin\Release\DomainModel.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\DomainModel\bin\Release\DomainModel.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\DomainModel\obj\Release\DomainModel.csproj.AssemblyReference.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\DomainModel\obj\Release\DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\DomainModel\obj\Release\DomainModel.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\DomainModel\obj\Release\DomainModel.pdb

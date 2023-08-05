@@ -1,0 +1,11 @@
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Release\Datalayer.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Release\DomainModel.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Release\Datalayer.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Release\DomainModel.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Release\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Release\BusinessLayer.pdb

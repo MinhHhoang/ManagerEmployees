@@ -20,3 +20,14 @@ C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\BusinessLayer\obj\Debug\Busines
 C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Debug\Datalayer.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Debug\DomainModel.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Debug\Datalayer.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\bin\Debug\DomainModel.pdb
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\MINH\Desktop\SSS\ProjectManagerEmployee\ProjectManagerEmployee\BusinessLayer\obj\Debug\BusinessLayer.pdb

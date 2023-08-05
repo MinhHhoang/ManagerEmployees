@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Lịch sử commit";
+}
+
+<div class="box box-primary">
+    <div class="box-header with-border">
+
+    </div>
+    <div class="box-body">
+        <p>Dự án @ViewBag.linksource</p>
+        <p hidden id="namepro">@ViewBag.linksource</p>
+        <div class="table-reponsive">
+            <table class="table table-bordered table-striped table-hover">
+                <thead>
+
+                    <tr class="bg-primary">
+                        <th>Tên Nhân viên</th>
+                        <th>Email nhân viên</th>
+                        <th>Thời gian commit</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody id="data">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            naviCommitHs()
+        };
+        function naviCommitHs() {
+            var nameprojetc = document.getElementById('namepro').innerHTML;
+            const headers = {
+                'Authorization': 'Bearer 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'
+            };
+
+            fetch('https://api.github.com/repos/MinhHhoang/' + nameprojetc + '/commits?',
+                {
+                    method: 'GET',
+
+                    headers: headers
+                })
+                .then(function (res) {
+                    res.json().then(
+                        data => {
+                            console.log(data);
+                            var temp = "";
+                            data.forEach((itemData) => {
+                                temp += "<tr>";
+                                temp += "<td>" + itemData.commit.committer.name + "</td>";
+                                temp += "<td>" + itemData.commit.committer.email + "</td>";
+                                temp += "<td>" + itemData.commit.committer.date + "</td></tr>";
+                            });
+                            document.getElementById('data').innerHTML = temp;
+                        }
+                    )
+
+
+                }).then(function (body) {
+
+
+
+
+                });
+        }
+    </script>
+    <!-- /.box-footer-->
+</div>
+
+
